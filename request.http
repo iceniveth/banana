@@ -1,0 +1,12 @@
+POST http://localhost:3000/attendances
+Content-Type: application/json
+
+{
+  "slack_id": "UGVSN5R88",
+  "key": "value"
+}
+
+###
+
+GET http://localhost:3000/attendances
+Content-Type: application/json

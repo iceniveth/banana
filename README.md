@@ -4,6 +4,14 @@
 
 ## Development
 
+Create a `.env` file with the content:
+
+```
+DATABASE_URL=postgres://postgres:postgres@localhost/banana?sslmode=disable
+```
+
+Run the create database `npm run migrate create`
+
 From your terminal:
 
 ```sh
